@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#07070b">
+<title>Time Is Running</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="bg"></div>
+
+<main class="page">
+  <header>
+    <div class="eyebrow">TIME IS RUNNING</div>
+    <h1>Every second<br><em>matters.</em></h1>
+    <p class="intro">Our time is moving toward <b>15 October 2026.</b></p>
+
+    <div class="countdown">
+      <div><strong id="days">00</strong><span>DAYS</span></div>
+      <i>:</i>
+      <div><strong id="hours">00</strong><span>HOURS</span></div>
+      <i>:</i>
+      <div><strong id="minutes">00</strong><span>MINUTES</span></div>
+      <i>:</i>
+      <div><strong id="seconds">00</strong><span>SECONDS</span></div>
+    </div>
+    <div class="target">UNTIL 15 OCTOBER 2026</div>
+  </header>
+
+  <section class="memory-card">
+    <div class="photo-frame">
+      <img id="dailyPhoto" alt="Daily memory">
+      <div class="overlay"></div>
+      <div id="photoCounter" class="counter"></div>
+    </div>
+    <div id="photoMessage" class="caption">A different memory every day.</div>
+  </section>
+
+  <section class="quote">
+    <div class="tiny-line"></div>
+    <p>Maybe one day we'll look back<br>and miss these ordinary moments.</p>
+  </section>
+
+  <footer>
+    <span id="today"></span>
+    <span>♥</span>
+    <span>TIME KEEPS MOVING</span>
+  </footer>
+</main>
+
+<div id="errorBox" class="error hidden"></div>
+
+<div id="final" class="final hidden">
+  <div>
+    <div class="eyebrow">15 OCTOBER 2026</div>
+    <h2>Time<br><em>ran out.</em></h2>
+    <p>Whatever happens next, these memories were real.</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
